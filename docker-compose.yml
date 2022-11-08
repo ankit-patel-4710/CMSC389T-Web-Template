@@ -4,7 +4,7 @@ services:
   nodejs:
     #fill out the configuration here
     build:
-      context: Nodejs
+      context: .
       dockerfile: Dockerfile
     image: node-web-app
     container_name: nodejs
